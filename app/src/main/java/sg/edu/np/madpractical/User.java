@@ -4,7 +4,7 @@ public class User {
     private String name;
     private String description;
     private int id;
-    private Boolean followed;
+    private boolean followed;
 
     public String getName() {
         return name;
@@ -30,7 +30,7 @@ public class User {
         this.id = id;
     }
 
-    public Boolean getFollowed() {
+    public boolean getFollowed() {
         return followed;
     }
 
